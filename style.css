@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:0 10px;
+}
+
+.location-container{
+    background:rgb(144, 227, 248);
+    margin-left:120px;
+    width:550px;
+    height: 450px;
+    padding:5px;
+    text-align: center;
+    border:1px solid black;
+    
+}
+.location-container label{
+    display: inline-block;
+    
+}
+.location-container input{
+    margin-bottom: 10px;
+    height: 40px;
+    width:88%;
+}
+#oneway,#roundtrip{
+    height: 18px;
+    width:18px;
+    margin:50px 50px;
+
+}
