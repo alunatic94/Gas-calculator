@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width:100%;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:0 10px;
+}
+/*Location Container*/
+.location-container{
+    background:rgb(144, 227, 248);
+    margin-left:120px;
+    width:550px;
+    height: 450px;
+    padding:5px;
+    text-align: center;
+    border:1px solid black;
+    
+}
+.location-container label{
+    display:inline-block;
+    
+}
+.location-container input{
+    margin-bottom: 50px;
+    height: 40px;
+    width:44%;
+}
+/*Oneway/Roundtrip*/
+#oneway,#roundtrip{
+    height: 180px;
+    width:18px;
+    margin:50px 50px;
+}
+
+
+/*Make and Model*/
+#makes-models{
+    background:red;
+    width:33%;
+    margin-bottom: 50px;
+}
