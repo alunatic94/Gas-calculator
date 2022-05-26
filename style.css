@@ -9,7 +9,7 @@ body{
     margin-bottom: 5px;
     padding:0 10px;
 }
-
+/*Location Container*/
 .location-container{
     background:rgb(144, 227, 248);
     margin-left:120px;
@@ -21,17 +21,25 @@ body{
     
 }
 .location-container label{
-    display: inline-block;
+    display:inline-block;
     
 }
 .location-container input{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     height: 40px;
-    width:88%;
+    width:44%;
 }
+/*Oneway/Roundtrip*/
 #oneway,#roundtrip{
-    height: 18px;
+    height: 180px;
     width:18px;
     margin:50px 50px;
+}
 
+
+/*Make and Model*/
+#makes-models{
+    background:red;
+    width:33%;
+    margin-bottom: 50px;
 }
